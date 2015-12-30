@@ -9,7 +9,8 @@ const Overlay = ({ color }) => {
         left: 0,
         opacity: .3,
         width: Dimensions.Card.width,
-        height: Dimensions.Card.height
+        height: Dimensions.Card.height,
+        borderRadius: Dimensions.Card.borderRadius
     }} />;
 
 }

@@ -37,13 +37,14 @@ export const Dimensions = {
     Card: {
         width: 125,
         height: 175,
-        borderRadius: 2
+        borderRadius: 5
     },
 
     Game: {
         width: 957,
         height: 500
     }
+
 }
 
 const sidePadding = 10;

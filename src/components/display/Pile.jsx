@@ -27,6 +27,7 @@ const Pile = ({ children, isOver, canDrop, color }) => {
             color: isOver && canDrop && color || Colors.Game.backgroundColor,
             height: Dimensions.Card.height + 5 * (cards.length-1),
             width: Dimensions.Card.width,
+            borderRadius: Dimensions.Card.borderRadius,
             transition: 'all 250ms'
         }}>
             {cards}

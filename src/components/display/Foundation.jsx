@@ -10,7 +10,7 @@ const Foundation = ({ children, suit, isOver, canDrop }) => {
                 isOver && canDrop && Colors.Card.upturned
                 || Colors.Foundation.backgroundColor,
             border: '1px solid #388E3C',
-            borderRadius: 2,
+            borderRadius: 5,
             boxSizing: 'border-box',
             width: 125,
             height: 175,
